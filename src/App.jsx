@@ -6,7 +6,7 @@ import {
   BrowserRouter as Router,
   Routes, Route
 } from "react-router-dom"
-import Navbar  from './components/Navbar'
+import Navbar from './components/Navbar'
 import { Home } from './components/Home'
 import { About } from './components/About'
 import NoteState from './context/Notes/NoteState'
@@ -20,10 +20,11 @@ function App() {
         {/* <Home /> */}
         <Router>
           <Navbar />
-          <Alert message={"This is amazing react Course"} />
+          {/* <Alert message={"This is amazing react Course"} /> */}
+          <Home />
           <div className="container">
             <Routes>
-              <Route path='/home' element={<Home />} />
+              {/* <Route path='/home' element={<Home />} /> */}
               <Route path='/about' element={<About />} />
             </Routes>
           </div>
