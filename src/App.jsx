@@ -20,8 +20,11 @@ function App() {
         {/* <Home /> */}
         <Router>
           <Navbar />
-          {/* <Alert message={"This is amazing react Course"} /> */}
+          <div className="container">
           <Home />
+
+          </div>
+          {/* <Alert message={"This is amazing react Course"} /> */}
           <div className="container">
             <Routes>
               {/* <Route path='/home' element={<Home />} /> */}
