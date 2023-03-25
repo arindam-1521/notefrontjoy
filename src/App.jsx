@@ -23,7 +23,7 @@ function App() {
           <Alert message={"This is amazing react Course"} />
           <div className="container">
             <Routes>
-              <Route path='/' element={<Home />} />
+              <Route path='/home' element={<Home />} />
               <Route path='/about' element={<About />} />
             </Routes>
           </div>
